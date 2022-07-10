@@ -346,15 +346,23 @@
 }
 
 /* partners section styles */
-.partners {
+.partners  {
     padding-top: 15rem;
 }
+.partner_items {
+    padding-top: 5rem;
+}
  .partner {
+  
     display: inline-block;
     padding: 0 1.87rem;
+    box-sizing: border-box;
 }
 .partner img {
     height: 6.2rem;
+}
+#teamwork_logo img {
+    height: 4rem;
 }
 @media only screen and (max-width: 991px){
     /* Main section */

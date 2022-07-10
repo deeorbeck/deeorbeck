@@ -7,6 +7,7 @@
     <title>Diyorbek Ismoilov</title>
     <link rel="stylesheet" href="./css/shared.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="./images/logo.png">
 </head>
@@ -16,7 +17,7 @@
     <header class="main-header">
         <div class="container">
             <div class="main-header__brand">
-                <a href="index.html">
+                <a href="contact.html">
                     <img  src="./images/logo.png" alt="logo"/>
         
                 </a>
@@ -28,11 +29,11 @@
                     </li> 
         
                     <li class="main-navigation__item">
-                        <a href="#">Men haqimda</a>
+                        <a href="#about-me">Men haqimda</a>
                     </li>
         
                     <li class="main-navigation__item">
-                        <a href="#">Xizmatlar</a>
+                        <a href="#services">Xizmatlar</a>
                     </li>
 <!--         
                     <li class="main-navigation__item">
@@ -40,7 +41,7 @@
                     </li> -->
         
                     <li class="main-navigation__item">
-                        <a href="#">Portfolio</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
         
                     <!-- <li class="main-navigation__item">
@@ -48,10 +49,10 @@
                     </li> -->
         
                     <li class="main-navigation__item">
-                        <a href="#">Sheriklar</a>
+                        <a href="#partners">Hamkorlar</a>
                     </li>
                     <li class="main-navigation__item">
-                        <a href="./contact.html">Bog'lanish</a>
+                        <a href="#contact">Bog'lanish</a>
                     </li>
         
                 </ul>
@@ -149,8 +150,8 @@
                 Junior developer
             </h3>
             <p class="about-me__description">
-                Ismim Diyorbek.Yoshim 19 da. 2 yildan buyon ushbu sohani o'rganib, ishlab kelmoqdaman.
-                Hozirda Far'gonada yashayman va tahsil olaman.Bir qancha real loyihalarni tayyorlaganman va tayyorlashda ishtirok etganman.
+                Ismim Diyorbek. Yoshim 19 da. 2 yildan buyon ushbu sohani o'rganib, ishlab kelmoqdaman.
+                Hozirda Far'gonada yashayman va tahsil olaman . Bir qancha real loyihalarni tayyorlaganman va tayyorlashda ishtirok etganman.
             </p>
             <button type="button" onclick="window.open('./files/resume.pdf')" class="button to_uppercase about-me__action">Resumeni ko'chirib olish</button>
         </div>
@@ -236,8 +237,8 @@
             </div>
         </div>
    </section>
-   </div>
-   <div class="clearfix"></div> -->
+   </div> -->
+   <div class="clearfix"></div> 
    <!-- /Clients section -->
 
     <!-- Portfolio section -->
@@ -251,11 +252,7 @@
             Mening oxirgi <br>
             ishlarimni ko'ring
         </div>
-        <!-- <ul class="portfolio-filters">
-            <li class="active">Hammasi</li>
-            <li>Mashxurlari</li>
-            <li>Oxirgilari</li>
-        </ul> -->
+       
         <div class="portfolio-items">
             <div class="portfolio-item">
                 <img src="./images/hivedu.png" alt="Portfolio Image" class="portfolio-item__image">
@@ -393,29 +390,64 @@
 
     <!-- Partners section -->
     <div class="container">
+
         <section id="partners" class="partners">
-            <div class="partner">
-                <img src="./images/amirshoes.png" alt="partner">
+            <div class="section-subtitle">
+                Hamkorlar
+                 <span class="blur-line"></span>
+             </div>
+             <div class="section-title">
+                 Mijozlar  <br>
+                va hamkorlar
+             </div>
+            <div class="partner_items">
+                <div class="partner">
+                    <img src="./images/amirshoes.png" alt="partner">
+                </div>
+                <div class="partner" id="teamwork_logo">
+                    <img src="./images/teamwork.jpg" alt="partner">
+                </div>
+                <div class="partner">
+                    <img src="./images/sarpomarkazi.png" alt="partner">
+                </div>
+                <div class="partner">
+                    <img src="./images/grandprint.png" alt="partner">
+                </div>
             </div>
-            <div class="partner">
-                <img src="./images/teamwork.jpg" alt="partner">
-            </div>
-            <div class="partner">
-                <img src="./images/sarpomarkazi.png" alt="partner">
-            </div>
-            <div class="partner">
-                <img src="./images/grandprint.png" alt="partner">
-            </div>
-            <!-- <div class="partner">
-                <img src="./images/gnomikbot.png" alt="partner">
-            </div> -->
             
         </section>
-    </div>
+    </div> 
     
     <!-- /Partners section -->
     <div class="clearfix"></div>
+    <!-- Contact -->
+    <div class="container">
+        <section class="contact" id="contact">
+            <div class="section-subtitle">
+                Bog'lanish
+                 <span class="blur-line"></span>
+             </div>
+             <div class="section-title" id="section-title">
+                Men bilan bog'laning
+            </div>
+            
+            <form >
+                <input type="text" name="chat_id" id="" value="1468429008" hidden>
+                <textarea name="text" id="text"  rows="10" placeholder="Xabaringizni kiriting" required></textarea>
+                <div class="half-row contact__firstname">
+                    <input type="text" placeholder="Ismingizni kiriting"  id="fn" required>
+                </div>
 
+                <div class="half-row contact__email">
+                    <input type="email" placeholder="Emailingizni kiriting"  id="em" required> 
+                </div>
+                <input type="text" placeholder="Xabar mazmuni"  id="sub">
+                <input type="text" name="parse_mode" value="html"  hidden>
+                <button  class="button contact__send"  id="button" onclick="send_message();">Xabar jo'natish</button>
+            </form>
+        </section>
+    </div>
+    <!-- /Contact -->
     <!-- Footer section -->
     <footer class="footer">
         <div class="container">
@@ -425,17 +457,17 @@
             <nav class="footer__navigation">
                 <ul class="footer__navigation-items">
                     <li class="footer__navigation-item">
-                        <a href="#">Asosiy</a>
+                        <a href="/">Asosiy</a>
             
                     </li>
     
                     <li class="footer__navigation-item">
-                        <a href="#">Men haqimda</a>
+                        <a href="#about-me">Men haqimda</a>
             
                     </li>
     
                     <li class="footer__navigation-item">
-                        <a href="#">Xizmatlar</a>
+                        <a href="#services">Xizmatlar</a>
             
                     </li>
     
@@ -445,7 +477,7 @@
                     </li> -->
     
                     <li class="footer__navigation-item">
-                        <a href="#">Portfolio</a>
+                        <a href="#portfolio">Portfolio</a>
             
                     </li>
                     <!-- <li class="footer__navigation-item">
@@ -453,10 +485,10 @@
                     </li> -->
     
                     <li class="footer__navigation-item">
-                        <a href="#">Sheriklar</a>
+                        <a href="#partners">Hamkorlar</a>
                     </li>
                     <li class="footer__navigation-item">
-                        <a href="./contact.html">Bog'lanish</a>
+                        <a href="#contact">Bog'lanish</a>
                     </li>
                     
                 </ul>
@@ -495,5 +527,15 @@
     </footer>
 
     <!-- /Footer section -->
+    <script>
+        function send_message () {   
+        let message = `Name: <pre>${document.getElementById('fn').value}</pre>Email: <pre>${document.getElementById('em').value}</pre>Subject: <pre>${document.getElementById('sub').value}</pre>Message: <pre>${document.getElementById('text').value}</pre>`; 
+        
+        if (document.getElementById('text').value){
+            fetch("https://api.telegram.org/bot1933805159:AAGYOWT70UooNWqhL4__sUCq-8vc9osLXdg/sendMessage?chat_id=1468429008&parse_mode=html&text=" + message) ;
+            alert("Xabaringiz jo\'natildi!")
+        }
+ }
+    </script>
 </body>
 </html>
