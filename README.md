@@ -22,7 +22,7 @@ Men dasturiy mahsulotlarning to'liq hayotiy siklini (SDLC) AI yordamida noldan q
 </p>
 
 ### 🔥 Oxirgi 1 yillik faollik (AI-powered contributions)
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=deeorbeck&theme=tokyo-night)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=deeorbeck&theme=tokyo-night&include_all_commits=true&count_private=true)
 
 > **Eslatma:** 2026-yilning o'zida **1,519+ contribution** qayd etildi. Barcha kodlar va tizim arxitekturalari AI ko'magida loyihalashtirilgan.
 
