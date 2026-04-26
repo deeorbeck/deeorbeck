@@ -17,15 +17,14 @@ Men dasturiy mahsulotlarning to'liq hayotiy siklini (SDLC) AI yordamida noldan q
 
 ### 📊 GitHub Statistikam
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=deeorbeck&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deeorbeck&layout=compact&theme=tokyonight&include_all_commits=true&count_private=true" alt="Top Langs" />
 </p>
 
-### 🔥 Oxirgi 1 yillik faollik (AI-powered contributions)
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=deeorbeck&theme=tokyo-night&include_all_commits=true&count_private=true)
+### 🗓 Butun davr bo'yicha faollik (2026)
 
-> **Eslatma:** 2026-yilning o'zida **1,519+ contribution** qayd etildi. Barcha kodlar va tizim arxitekturalari AI ko'magida loyihalashtirilgan.
+![Diyorbek's Calendar](https://ghchart.rshah.org/4097ff/deeorbeck)
 
+> **Ma'lumot:** Yuqoridagi jadval barcha (public va private) loyihalar bo'yicha yil davomidagi umumiy dinamikani aks ettiradi.
 ---
 
 ### 🌟 Asosiy loyihalarim
